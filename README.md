@@ -116,10 +116,12 @@ The model is used as a workload to study GPU behavior, not for accuracy optimiza
 ## 📁 Project Structure
 ```
 adaptive-gpu-optimizer/
-├── adaptive_batch_optimization.ipynb
+├── adaptive_batch_optimization.ipynb   ← full code
 ├── results/
-│ ├── utilization_vs_batch.png
-│ ├── memory_vs_batch.png
+│   ├── gpu_util_static.png
+│   ├── memory_static.png
+│   ├── gpu_util_adaptive.png
+│   ├── batch_size_adaptive.png
 ├── README.md
 ```
 ---
